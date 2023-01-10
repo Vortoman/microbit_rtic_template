@@ -1,6 +1,0 @@
-$ mkdir -p "/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/az-97b5bc21e12b8d12/out/try_track_caller"
-$ cd "/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/az-97b5bc21e12b8d12/out/try_track_caller"
-$ printf '%s' "// try_tra"... > "/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/az-97b5bc21e12b8d12/out/try_track_caller/try_track_caller.rs"
-$ "/home/efraim/.cargo/bin/rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
-cargo:rustc-cfg=track_caller
-$ rm -r "/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/az-97b5bc21e12b8d12/out/try_track_caller"
