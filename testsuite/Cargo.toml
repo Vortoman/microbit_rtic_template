@@ -1,0 +1,19 @@
+[package]
+authors = ["efraim"]
+name = "testsuite"
+publish = false
+edition = "2021"
+version = "0.1.0"
+
+[lib]
+harness = false
+
+[[test]]
+name = "test"
+harness = false
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+defmt-test = "0.3.0"
+panic-rtt-target = { version =  "0.1.2", features = ["cortex-m"] }

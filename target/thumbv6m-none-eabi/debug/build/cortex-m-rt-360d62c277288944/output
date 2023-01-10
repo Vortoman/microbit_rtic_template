@@ -1,0 +1,5 @@
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv6m
+cargo:rustc-link-search=/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/cortex-m-rt-360d62c277288944/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in

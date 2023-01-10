@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/efraim/PycharmProjects/microbit_rtic_template/target/thumbv6m-none-eabi/debug/build/nrf51-pac-7b3ba3bc5ec275fd/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs
